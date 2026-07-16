@@ -207,13 +207,13 @@
   .split{display:grid; grid-template-columns:1fr 1fr; gap:0; margin-top:56px; border:1px solid var(--hair-light); border-radius:20px; overflow:hidden;}
   .split > div{padding:44px;}
   .split .yes{background:var(--cream); }
-  .split .no{background:var(--rose); color:var(--text-light);}
+  .split .no{background:var(--amber); color:var(--ink);}
   .split h3{font-size:1.3rem; margin-bottom:24px;}
   .split ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:16px;}
   .split li{display:grid; grid-template-columns:20px 1fr; gap:12px; font-size:15.5px;}
   .split .yes li::before{content:"✓"; color:var(--rust); font-weight:600;}
-  .split .no li::before{content:"–"; color:var(--muted-on-dark); font-weight:600;}
-  .split .no p{color:var(--muted-on-dark);}
+  .split .no li::before{content:"–"; color:var(--muted-on-light); font-weight:600;}
+  .split .no p{color:var(--muted-on-light);}
 
   .includes{margin-top:56px; display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--hair-light); border:1px solid var(--hair-light); border-radius:16px; overflow:hidden;}
   .includes-item{background:var(--cream); padding:30px; display:flex; gap:16px; align-items:flex-start;}
@@ -248,7 +248,7 @@
     display:flex; flex-direction:column;
   }
   .price-card.featured{
-    border-color:var(--amber); background:var(--rose); color:var(--text-light);
+    border-color:var(--amber); background:var(--amber); color:var(--ink);
     box-shadow:0 20px 50px -20px rgba(0,0,0,0.35);
     transform:translateY(-8px);
   }
